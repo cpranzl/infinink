@@ -25,8 +25,8 @@ try:
     drawred = ImageDraw.Draw(HRedImage)
     
     # Scale the bmp and calculate offset to center it
-    TextBMP = Image.open('Infineon_grayscale_text.bmp')
-    SwooshBMP = Image.open('Infineon_grayscale_swoosh.bmp')
+    TextBMP = Image.open('Infineon_bw_text.bmp')
+    SwooshBMP = Image.open('Infineon_bw_swoosh.bmp')
     TextBMP = TextBMP.resize((epd.height, epd.width))
     SwooshBMP = SwooshBMP.resize((epd.height, epd.width))
 
